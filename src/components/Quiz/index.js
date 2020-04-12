@@ -10,6 +10,7 @@ class App extends Component {
       <div>
         <alert onClick={this.notify}>Hello !</alert>
         <ToastContainer />
+        <p> Hello </p>
       </div>
     );
   }
