@@ -1,0 +1,52 @@
+.inscriptions {
+  color: #444;
+  font-size: 35px;
+  position: absolute;
+  margin-left: 578px;
+  text-align: center;
+  margin-top: 88px;
+}
+
+#email2 {
+  margin-top: 8px;
+  position: absolute;
+  margin-left: -357px;
+  font-size: 22px;
+}
+
+#pseudo2 {
+  margin-left: -403px;
+  font-size: 22px;
+  position: absolute;
+}
+
+#Motdepasse {
+  margin-left: -425px;
+  font-size: 22px;
+  position: absolute;
+  margin-top: -16px;
+}
+#cfrmermdp {
+  margin-left: -443px;
+  font-size: 22px;
+  position: absolute;
+  margin-top: -20px;
+}
+
+#moveinput {
+  margin-top: 231px;
+}
+
+button {
+  font-size: 20px;
+}
+#login {
+  padding: 6px 0 6px 0;
+  font: Bold 13px Arial;
+  background: #ff7a00;
+  color: #fff;
+  width: 131px;
+  border-radius: 2px;
+  border: none;
+  cursor: pointer;
+}

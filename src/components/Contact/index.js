@@ -1,4 +1,4 @@
-import React, { Component, Fragment } from "react";
+import React, { Component} from "react";
 
 import axios from "axios";
 
@@ -23,6 +23,7 @@ class mycontact extends Component {
 
     const { name, email, message } = this.state;
 
+  
     const form = await axios.post("http://localhost:8080/api/form", {
       name,
       email,
@@ -89,7 +90,7 @@ class mycontact extends Component {
               </button>
             </form>
           </section>
-        </div>
+*        </div>
       </div>
     );
   }

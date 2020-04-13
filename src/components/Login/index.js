@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useContext } from "react";
 import { Link } from "react-router-dom";
 import { FirebaseContext } from "../Firebase";
+import "../Css/login.css";
 
 const Login = (props) => {
   const firebase = useContext(FirebaseContext);
@@ -43,9 +44,9 @@ const Login = (props) => {
           <div className="formContent">
             {error !== "" && <span>{error.message}</span>}
 
-            <h2>Connexion</h2>
+            <h2 className="connexions">Connexion</h2>
             <form onSubmit={handleSubmit}>
-              <div className="inputBox">
+              <div className="inputBox" id="movelogin">
                 <input
                   onChange={(e) => setEmail(e.target.value)}
                   value={email}
@@ -53,8 +54,11 @@ const Login = (props) => {
                   autoComplete="off"
                   required
                 />
-                <label htmlFor="email">Email</label>
+                <label htmlFor="email" required="required" className="myemail3">
+                  Email
+                </label>
               </div>
+              
 
               <div className="inputBox">
                 <input
@@ -62,9 +66,11 @@ const Login = (props) => {
                   value={password}
                   type="password"
                   autoComplete="off"
-                  required
                 />
-                <label htmlFor="password">Mot de passe</label>
+
+                <label htmlFor="password" required="required" className="mdp">
+                  Mot de passe
+                </label>
               </div>
 
               {btn ? (
@@ -76,17 +82,20 @@ const Login = (props) => {
             <div className="linkContainer">
               <Link className="simpleLink" to="/signup">
                 Nouveau sur TravelAgency ?{" "}
-                <button className="buttonss">Inscrivez-vous maintenant.</button>
+                <button className="signup">Inscris toi</button>
               </Link>
               <br />
-              <Link className="simpleLink" to="/forgetpassword">
+              <Link className="forgot" to="/forgetpassword">
                 Mot de passe oublié? Récupérez-le ici.
               </Link>
+
+              
             </div>
           </div>
         </div>
       </div>
     </div>
+    
   );
 };
 

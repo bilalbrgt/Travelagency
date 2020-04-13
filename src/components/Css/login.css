@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.signup {
+  padding: 6px 0 6px 0;
+  font: Bold 13px Arial;
+  background: #ff7a00;
+  color: #fff;
+  width: 90px;
+  border-radius: 2px;
+  border: none;
+  cursor: pointer;
+}
+
+.forgot {
+  margin-left: 498px;
+  position: absolute;
+  margin-top: -20px;
+}
+
+.simpleLink {
+  margin-left: 500px;
+  position: absolute;
+  margin-top: 27px;
+}
+
+.mdp {
+  margin-left: -440px;
+  position: absolute;
+}
+
+.myemail3 {
+  margin-top: -2px;
+  position: absolute;
+  margin-left: -412px;
+  font-size: 22px;
+}
+
+#movelogin {
+  margin-top: 200px;
+}
+
+.connexions {
+  color: #444;
+  font-size: 35px;
+  position: absolute;
+  margin-left: 578px;
+  text-align: center;
+  margin-top: 88px;
+}
+button {
+  font-size: 20px;
+}
