@@ -1,0 +1,40 @@
+.forgot2 {
+  color: #444;
+  font-size: 35px;
+  position: absolute;
+  margin-left: 381px;
+  text-align: center;
+  margin-top: 52px;
+}
+
+.moveform {
+  width: 405px;
+  padding: 1em;
+  margin-top: 267px;
+  position: absolute;
+  margin-left: 381px;
+}
+.simpleLink {
+  margin-left: 386px;
+  position: absolute;
+  margin-top: 346px;
+}
+
+.labelemail {
+  display: inline-block;
+  width: 55px;
+  text-align: left;
+  position: absolute;
+  margin-left: -363px;
+}
+
+.btnforgot {
+  padding: 6px 0 6px 0;
+  font: Bold 13px Arial;
+  background: #ff7a00;
+  color: #fff;
+  width: 90px;
+  border-radius: 2px;
+  border: none;
+  cursor: pointer;
+}

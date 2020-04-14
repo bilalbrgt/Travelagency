@@ -80,7 +80,7 @@ const Login = (props) => {
               )}
             </form>
             <div className="linkContainer">
-              <Link className="simpleLink" to="/signup">
+              <Link className="simpleLink2" to="/signup">
                 Nouveau sur TravelAgency ?{" "}
                 <button className="signup">Inscris toi</button>
               </Link>

@@ -8,11 +8,9 @@ class App extends Component {
   render() {
     return (
       <div>
-        <alert onClick={this.notify}>Hello !</alert>
+        <alert onClick={this.notify}></alert>
         <ToastContainer />
-        <p> Hello </p>
       </div>
-      
     );
   }
 }
