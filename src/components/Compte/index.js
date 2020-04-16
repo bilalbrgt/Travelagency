@@ -65,7 +65,7 @@ class App extends Component {
     let data = this.state.datas[i];
     this.refs.name.value = data.name;
     this.refs.address.value = data.address;
-    this.refs.address.value = data.age;
+    this.refs.age.value = data.age;
 
     this.setState({
       act: 1,
@@ -89,7 +89,7 @@ class App extends Component {
             required="required"
           />
           <input
-            type="text"
+            type="email"
             ref="address"
             placeholder="votre adreese Email"
             required="required"
@@ -102,6 +102,9 @@ class App extends Component {
             required="required"
             className="formField"
           />
+
+          <br />
+
           <button onClick={(e) => this.fSubmit(e)} className="myButton">
             submit{" "}
           </button>

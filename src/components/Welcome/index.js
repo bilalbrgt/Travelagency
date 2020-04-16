@@ -2,7 +2,7 @@ import React, { useState, useContext, useEffect } from "react";
 import { FirebaseContext } from "../Firebase";
 import Logout from "../Logout";
 import Loader from "../Loader/";
-import Quiz from "../Quiz";
+import Quiz from "../Compte";
 
 const Welcome = (props) => {
   const firebase = useContext(FirebaseContext);
