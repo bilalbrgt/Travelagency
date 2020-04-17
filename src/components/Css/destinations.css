@@ -1,103 +1,112 @@
 .bons {
-    text-transform: unset;
-    padding-top: 15px;
-    color: #242d44;
-    font-family: Montserrat;
-    font-size: 27px;
-    margin-left: 120px;
-    font-weight: 600 !important;
-    text-align: center;
-  }
-  .imgdest {
-    width: 293px;
-    margin-left: 40px;
-    margin-top: 70px;
-  }
-  .container {
-    display: flex;
-    flex-wrap: wrap;
-  }
-  
-  .titredestinations {
-    color: #242d44;
-    position: absolute;
-    margin-top: 29px;
-    margin-left: 125px;
-    font-size: 19px;
-  }
-  .fa,
-  .fas {
-    font-weight: 900;
-    font-size: 20px;
-    color: #ff5f46;
-  }
-  #prix {
-    margin-left: 264px;
-    position: absolute;
-    margin-top: -35px;
-    width: 69px;
-    height: 32px;
-    background-color: #ff5f46;
-    color: white;
-    text-align: center;
-    cursor: pointer;
-    font-size: 20px;
-  }
-  .sejour {
-    padding: 10px 20px;
-    text-decoration: none;
-    font-size: 16px;
-    font-weight: 700;
-    background: #ff5f46;
-    display: inline-block;
-    color: #fff;
-    margin: 0 auto;
-    cursor: pointer;
-    margin-top: 57px;
-    text-align: center;
-  }
-  .destinations {
-    color: #242d44;
-    font-family: Montserrat;
-    font-weight: 600;
-    font-size: 27px;
-    margin-top: 755px;
-    position: absolute;
-    margin-left: 87px;
-    text-align: center;
-    font-size: 32px;
-  }
-  
-  .egypte {
-    margin-top: 828px;
-    position: absolute;
-    margin-left: 15px;
-  }
-  
-  .block {
-    width: 239px;
-    height: 426px;
-    position: absolute;
-    background-color: black;
-    margin-top: 829px;
-    opacity: 0.2;
-    margin-left: 415px;
-    font-size: 40px;
-    color: blanchedalmond;
-    font-weight: 700;
-  }
-  
-  #prix-egypte {
-    margin-left: 405px;
-    position: absolute;
-    margin-top: 933px;
-    width: 126px;
-    height: 32px;
-    background-color: #ff5f46;
-    color: #fff;
-    text-align: center;
-    font-family: unset;
-    cursor: pointer;
-    font-size: 20px;
-  }
-  
+  text-transform: unset;
+  padding-top: 15px;
+  color: #242d44;
+  font-family: Montserrat;
+  font-size: 27px;
+  margin-left: 120px;
+  font-weight: 600 !important;
+  text-align: center;
+}
+.imgdest {
+  width: 293px;
+  margin-left: 40px;
+  margin-top: 70px;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.titredestinations {
+  color: #242d44;
+  position: absolute;
+  margin-top: 29px;
+  margin-left: 125px;
+  font-size: 19px;
+}
+.fa,
+.fas {
+  font-weight: 900;
+  font-size: 20px;
+  color: #ff5f46;
+}
+#prix {
+  margin-left: 245px;
+  position: absolute;
+  margin-top: -61px;
+  width: 88px;
+  height: 58px;
+  background-color: #ff5f46;
+  color: white;
+  text-align: center;
+  cursor: pointer;
+  font-size: 20px;
+}
+.sejour {
+  padding: 10px 20px;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 700;
+  background: #ff5f46;
+  display: inline-block;
+  color: #fff;
+  margin: 0 auto;
+  cursor: pointer;
+  margin-top: 57px;
+  text-align: center;
+}
+.destinations {
+  color: #242d44;
+  font-family: Montserrat;
+  font-weight: 600;
+  font-size: 27px;
+  margin-top: 755px;
+  position: absolute;
+  margin-left: 87px;
+  text-align: center;
+  font-size: 32px;
+}
+
+.egypte {
+  margin-top: 828px;
+  position: absolute;
+  margin-left: 15px;
+}
+
+.block {
+  width: 239px;
+  height: 426px;
+  position: absolute;
+  background-color: black;
+  margin-top: 829px;
+  opacity: 0.2;
+  margin-left: 415px;
+  font-size: 40px;
+  color: blanchedalmond;
+  font-weight: 700;
+}
+
+#prix-egypte {
+  margin-left: 405px;
+  position: absolute;
+  margin-top: 933px;
+  width: 126px;
+  height: 32px;
+  background-color: #ff5f46;
+  color: #fff;
+  text-align: center;
+  font-family: unset;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.block2 {
+  font-size: 33px;
+  margin-top: 850px;
+  position: absolute;
+  margin-left: 430px;
+  text-align: center;
+  color: #fff;
+  font-weight: 600;
+}

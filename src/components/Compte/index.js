@@ -79,7 +79,7 @@ class App extends Component {
     let datas = this.state.datas;
     return (
       <div className="App">
-        <h2>{this.state.title}</h2>
+        <h2 id="title">{this.state.title}</h2>
         <form ref="myForm" className="myForm">
           <input
             type="text"

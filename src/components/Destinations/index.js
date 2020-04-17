@@ -1,4 +1,6 @@
 import React, { useState } from "react";
+import Notifications from "../Notifications";
+
 import "../Css/destinations.css";
 import image from "../../img/sphinx.jpg";
 const url = "http://localhost:8080/api/reservation";
@@ -37,14 +39,18 @@ const Travel = () => {
               <p className="titredestinations">{el.titre}</p>
 
               <img src={el.image} className="imgdest"></img>
-              <p id="prix">{el.prix}€</p>
+              <p id="prix">
+                {el.prix}€ <Notifications />
+              </p>
             </div>
           );
         })}
         <p className="sejour"> Tous nos séjours à petits prix</p>
         <h2 className="destinations">Déstinations à découvrir</h2>
         <img className="egypte" src={image} alt="Egypte"></img>
-        <p className="block">EGYPTE</p>
+        <p className="block"></p>
+        <p className="block2"> Egypte</p>
+
         <br />
         <p id="prix-egypte"> dés 600€</p>
       </div>
