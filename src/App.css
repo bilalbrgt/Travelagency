@@ -531,11 +531,19 @@ Pour regler le chaamps de nom
 */
 }
 
-.imgcontact {
-  background-image: url("./");
-  background-position: center;
-  background-size: cover;
-  height: 100%;
-  width: 100%;
-  background-repeat: no-repeat;
+.contactme {
+  font-size: 32px;
+  margin-left: 514px;
+  color: black;
+  margin-top: 57px;
+  position: absolute;
+}
+
+.contactform {
+  margin: 0 auto;
+  width: 400px;
+  padding: 1em;
+  position: absolute;
+  margin-top: 220px;
+  margin-left: 413px;
 }

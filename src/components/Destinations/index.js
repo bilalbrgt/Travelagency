@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Notifications from "../Notifications";
 
 import "../Css/destinations.css";
-import image from "../../img/sphinx.jpg";
+import image from "../../img/Travelagency.jpg";
 const url = "http://localhost:8080/api/reservation";
 
 const Travel = () => {
@@ -53,6 +53,15 @@ const Travel = () => {
 
         <br />
         <p id="prix-egypte"> dés 600€</p>
+        <p id="degypte">
+          Préparez votre voyage en Egypte : <br />
+          suivez nos conseils et nos infos
+          <br />
+          pratiques, découvrez <br />
+          les meilleurs itinéraires et les visites
+          <br />
+          incontournables.
+        </p>
       </div>
     </div>
   );

@@ -50,3 +50,9 @@ button {
   border: none;
   cursor: pointer;
 }
+
+.simpleLink {
+  margin-left: 386px;
+  position: absolute;
+  margin-top: 10px;
+}

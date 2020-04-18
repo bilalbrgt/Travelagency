@@ -3,7 +3,7 @@ import "react-toastify/dist/ReactToastify.min.css";
 import { ToastContainer, toast } from "react-toastify";
 
 class Notifications extends Component {
-  notify = () => toast.info(" 01 70 15 55 55");
+  notify = () => toast.info(" 01 70 15 55 55  ");
 
   render() {
     return (

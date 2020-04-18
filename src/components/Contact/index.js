@@ -1,4 +1,4 @@
-import React, { Component} from "react";
+import React, { Component } from "react";
 
 import axios from "axios";
 
@@ -23,7 +23,6 @@ class mycontact extends Component {
 
     const { name, email, message } = this.state;
 
-  
     const form = await axios.post("http://localhost:8080/api/form", {
       name,
       email,
@@ -38,59 +37,53 @@ class mycontact extends Component {
   render() {
     return (
       <div className="container">
-        <div className="imgcontact">
-          <section id="contact">
-            <h3> Contactez- nous</h3>
+        <section id="contact">
+          <h1 className="contactme"> Contactez- nous</h1>
 
+          <div class="g-mb-20"></div>
+          <form onSubmit={this.handlesubmit} className="contactform">
+            <div>
+              <label for="name" id="name">
+                Nom
+              </label>
+              <input
+                type="text"
+                id="name"
+                name="name"
+                onChange={this.handleChange}
+                required="required"
+              />
+            </div>
+            <div>
+              <label for="email " id="monemail">
+                {" "}
+                Email
+              </label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                onChange={this.handleChange}
+                required="required"
+              />
+            </div>
+            <div>
+              <label for="message" className="mymsg">
+                Message
+              </label>
+              <textarea
+                id="message"
+                name="message"
+                onChange={this.handleChange}
+                required="required"
+              ></textarea>
+            </div>
             <div class="g-mb-20"></div>
-            <form onSubmit={this.handlesubmit}>
-              <div>
-                <label for="name" id="name">
-                  Nom
-                </label>
-                <input
-                  type="text"
-                  id="name"
-                  name="name"
-                  onChange={this.handleChange}
-                  required="required"
-                />
-              </div>
-              <div>
-                <label for="email " id="monemail">
-                  {" "}
-                  Email
-                </label>
-                <input
-                  type="email"
-                  id="email"
-                  name="email"
-                  onChange={this.handleChange}
-                  required="required"
-                />
-              </div>
-              <div>
-                <label for="message" className="mymsg">
-                  Message
-                </label>
-                <textarea
-                  id="message"
-                  name="message"
-                  onChange={this.handleChange}
-                  required="required"
-                ></textarea>
-              </div>
-              <div class="g-mb-20"></div>
-              <button
-                class="buttonss"
-                type="submit"
-                onClick={this.reloadThePage}
-              >
-                Envoyer
-              </button>
-            </form>
-          </section>
-*        </div>
+            <button class="buttonss" type="submit" onClick={this.reloadThePage}>
+              Envoyer
+            </button>
+          </form>
+        </section>
       </div>
     );
   }
