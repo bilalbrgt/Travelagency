@@ -46,7 +46,7 @@ const Travel = () => {
           );
         })}
         <p className="sejour"> Tous nos séjours à petits prix</p>
-        <h2 className="destinations">Déstinations à découvrir</h2>
+        <h2 className="destinations">Destination à découvrir !</h2>
         <img className="egypte" src={image} alt="Egypte"></img>
         <p className="block"></p>
         <p className="block2"> Egypte</p>
@@ -54,7 +54,7 @@ const Travel = () => {
         <br />
         <p id="prix-egypte"> dés 600€</p>
         <p id="degypte">
-          Préparez votre voyage en Egypte : <br />
+          Préparez votre voyage en Egypte: <br />
           suivez nos conseils et nos infos
           <br />
           pratiques, découvrez <br />

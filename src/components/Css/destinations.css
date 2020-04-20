@@ -65,7 +65,6 @@
   position: absolute;
   margin-left: 87px;
   text-align: center;
-  font-size: 32px;
 }
 
 .egypte {
@@ -118,4 +117,25 @@
   color: white;
   font-weight: 600;
   margin-left: 414px;
+}
+
+.Toastify__toast {
+  margin-left: -110px;
+  position: absolute;
+  min-height: 64px;
+  box-sizing: border-box;
+  margin-bottom: 1rem;
+  padding: 8px;
+  border-radius: 1px;
+  display: flex;
+  justify-content: space-between;
+  max-height: 800px;
+  overflow: hidden;
+  font-family: sans-serif;
+  cursor: pointer;
+  direction: ltr;
+  margin-top: 62px;
+}
+.Toastify__toast--info {
+  background: #ff5f46;
 }

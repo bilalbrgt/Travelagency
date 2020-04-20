@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 
 import axios from "axios";
+import "react-toastify/dist/ReactToastify.min.css";
+import { ToastContainer, toast } from "react-toastify";
 
 class mycontact extends Component {
   constructor() {
@@ -33,6 +35,7 @@ class mycontact extends Component {
   reloadThePage() {
     window.location.reload();
   }
+  notify = () => toast.success(" Email envoyer  ");
 
   render() {
     return (
@@ -79,6 +82,17 @@ class mycontact extends Component {
               ></textarea>
             </div>
             <div class="g-mb-20"></div>
+            <ToastContainer
+              position="top-right"
+              autoClose={5000}
+              hideProgressBar={false}
+              newestOnTop={false}
+              closeOnClick
+              rtl={false}
+              pauseOnVisibilityChange
+              draggable
+              pauseOnHover
+            />
             <button class="buttonss" type="submit" onClick={this.reloadThePage}>
               Envoyer
             </button>
