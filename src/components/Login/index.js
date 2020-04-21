@@ -58,7 +58,6 @@ const Login = (props) => {
                   Email
                 </label>
               </div>
-              
 
               <div className="inputBox">
                 <input
@@ -74,28 +73,26 @@ const Login = (props) => {
               </div>
 
               {btn ? (
-                <button>Connexion</button>
+                <button className="newbutton">Connexion</button>
               ) : (
-                <button disabled>Connexion</button>
+                <button disabled className="newbutton">
+                  Connexion
+                </button>
               )}
             </form>
             <div className="linkContainer">
               <Link className="simpleLink2" to="/signup">
-                Nouveau sur TravelAgency ?{" "}
-                <button className="signup">Inscris toi</button>
+                Nouveau sur TravelAgency ? Inscris toi
               </Link>
               <br />
               <Link className="forgot" to="/forgetpassword">
                 Mot de passe oublié? Récupérez-le ici.
               </Link>
-
-              
             </div>
           </div>
         </div>
       </div>
     </div>
-    
   );
 };
 

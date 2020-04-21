@@ -97,7 +97,12 @@ class mycontact extends Component {
               draggable
               pauseOnHover
             />
-            <button class="buttonss" type="submit" onClick={this.reloadThePage}>
+            <button
+              class="contact-form-btn"
+              type="submit"
+              onClick={this.reloadThePage}
+              value="Send"
+            >
               Envoyer
             </button>
           </form>
