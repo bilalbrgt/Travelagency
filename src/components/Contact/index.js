@@ -3,6 +3,8 @@ import React, { Component } from "react";
 import axios from "axios";
 import "react-toastify/dist/ReactToastify.min.css";
 import { ToastContainer, toast } from "react-toastify";
+import "../Css/contact.css";
+import image from "../../img/bg-Travelagency.png";
 
 class mycontact extends Component {
   constructor() {
@@ -39,8 +41,10 @@ class mycontact extends Component {
 
   render() {
     return (
-      <div className="container">
+      <div className="fullscren">
         <section id="contact">
+          <img className="montagnes" src={image} alt="montagnes"></img>
+
           <h1 className="contactme"> Contactez- nous</h1>
 
           <div class="g-mb-20"></div>

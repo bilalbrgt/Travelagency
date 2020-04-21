@@ -25,6 +25,10 @@ class App extends Component {
     let age = this.refs.age.value;
     let address = this.refs.address.value;
 
+    const initialSta = {
+      showWelcomeMsg: false,
+    };
+
     if (this.state.act === 0) {
       //new
       let data = {

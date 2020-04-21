@@ -125,10 +125,8 @@ const Signup = (props) => {
               {btn}
             </form>
             <div className="linkContainer">
-                
-              <Link className="simpleLink" to="/login">
+              <Link className="simpleLink33" to="/login">
                 Déjà inscrit? <button id="login">Connectez-vous</button>
-                
               </Link>
             </div>
           </div>

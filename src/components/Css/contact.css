@@ -1,0 +1,13 @@
+.montagnes {
+  background-image: url(/static/media/bg-Travelagency.e45bfbd3.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  width: 212vh;
+  height: 200vh;
+  margin-left: -721px;
+}
+
+.robot {
+  display: none;
+}

@@ -3,14 +3,13 @@ import "firebase/auth";
 import "firebase/firestore";
 
 const config = {
-  apiKey: "AIzaSyBHZkwBhSXiNchTnxfenfAfiRuGhdwb7ds",
-  authDomain: "travelagency-e6d12.firebaseapp.com",
-  databaseURL: "https://travelagency-e6d12.firebaseio.com",
-  projectId: "travelagency-e6d12",
-  storageBucket: "travelagency-e6d12.appspot.com",
-  messagingSenderId: "61239446970",
-  appId: "1:61239446970:web:79587161f9907a34e26183",
-  measurementId: "G-N9P0X02987",
+  apiKey: process.env.REACT_APP_FIREBASE_API_KEY,
+  authDomain: process.env.REACT_APP_FIREBASE_AUTH_DOMAIN,
+  databaseURL: process.env.REACT_APP_FIREBASE_DATABASE_URL,
+  projectId: process.env.REACT_APP_FIREBASE_PROJECT_ID,
+  storageBucket: process.env.REACT_APP_FIREBASE_STORAGE_BUCKET,
+  messagingSenderId: process.env.REACT_APP_FIREBASE_MESSAGING_SENDER_ID,
+  appId: process.env.REACT_APP_FIREBASE_APP_ID
 };
 
 class Firebase {
