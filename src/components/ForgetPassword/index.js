@@ -70,12 +70,14 @@ const ForgetPassword = (props) => {
                 </label>
               </div>
 
-              <button disabled={disabled}>Récupérer</button>
+              <button disabled={disabled} className="newbutton">
+                Récupérer
+              </button>
             </form>
 
             <div className="linkContainer">
               <Link className="simpleLink" to="/login">
-                Déjà inscrit? <button className="btnforgot">Connexions</button>
+                Déjà inscrit? Connexions
               </Link>
             </div>
           </div>

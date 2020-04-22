@@ -46,24 +46,30 @@ const Travel = () => {
           );
         })}
         <p className="sejour"> Tous nos séjours à petits prix</p>
-        <h2 className="destinations">Destination à découvrir !</h2>
-        <img className="egypte" src={image} alt="Egypte"></img>
-        <p className="block"></p>
-        <p className="block2"> Egypte</p>
+          <h2 className="destinations">Destination à découvrir !</h2>
+          <section></section>
+          <img className="egypte" src={image} alt="Egypte"></img>
+          <p className="block"></p>
+          <p className="block2"> Egypte</p>
 
-        <br />
-        <p id="prix-egypte"> dés 600€</p>
-        <p id="degypte">
-          Préparez votre voyage en Egypte: <br />
-          suivez nos conseils et nos infos
           <br />
-          pratiques, découvrez <br />
-          les meilleurs itinéraires et les visites
-          <br />
-          incontournables.
-        </p>
+          <p id="prix-egypte"> dés 600€</p>
+          <p id="degypte">
+            Préparez votre voyage en Egypte: <br />
+            suivez nos conseils et nos infos
+            <br />
+            pratiques, découvrez <br />
+            les meilleurs itinéraires et les visites
+            <br />
+            incontournables.
+          </p>
+
+          <h3 className="topdestinations">Top destinations</h3>
+          <div id="divv"></div>
+        </div>
+        
       </div>
-    </div>
+      
   );
 };
 

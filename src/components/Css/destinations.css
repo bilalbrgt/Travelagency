@@ -139,3 +139,22 @@
 .Toastify__toast--info {
   background: #ff5f46;
 }
+
+.topdestinations {
+  margin-top: 762px;
+  margin-left: 888px;
+  text-align: center;
+  position: absolute;
+}
+#divv {
+  background-color: #efefef;
+  width: 275px;
+  height: 429px;
+  margin-top: 825px;
+  position: absolute;
+  margin-left: 836px;
+}
+
+.maldives {
+  color: black;
+}

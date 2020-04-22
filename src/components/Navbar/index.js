@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import Footer from "../Footer";
-
+import "../Css/navbar.css";
 function Navbar() {
   return (
     <div className="nav">
@@ -13,6 +13,7 @@ function Navbar() {
               Travel Agency <span className="oranges">. </span>
             </h1>{" "}
           </Link>
+
           <nav>
             <ul>
               <li>
@@ -23,7 +24,7 @@ function Navbar() {
               </li>
 
               <li>
-                <Link to="/login"> Mon Compte </Link>
+                <Link to="/login"> Compte </Link>
               </li>
               <li>
                 <Link to="/contact"> Contact </Link>
@@ -32,7 +33,7 @@ function Navbar() {
           </nav>
         </div>
       </header>
-
+      <section></section>
       <Footer />
     </div>
   );

@@ -88,7 +88,7 @@ p {
 h1 {
   font-family: "Crete Round", serif;
   font-size: 45px;
-  color: #444;
+  color: #fff;
   text-align: center;
   float: left;
   margin-top: 32px;
@@ -172,6 +172,10 @@ label {
   margin-top: -230px;
 }
 
+a {
+  text-decoration: none;
+  color: #fff;
+}
 @media screen and (max-width: 1280px) {
   small {
     font-size: 26px;
@@ -231,17 +235,18 @@ label {
   h1 {
     font-family: "Crete Round", serif;
     font-size: 49px;
-    color: #444;
+    color: white;
     text-align: center;
     float: left;
     margin-top: 32px;
-    margin-left: -20px;
+    margin-left: -300px;
     padding: 15px;
   }
   header nav ul li a {
     text-transform: uppercase;
     font-weight: bold;
-    margin-right: 30px;
+    margin-right: 27px;
+    margin-left: 66px;
     font-size: 20px;
   }
   #main-images {
@@ -308,14 +313,14 @@ label {
 
 header {
   height: 120px;
+  background-color: #0064dc;
 }
-
 ul {
   list-style: none;
 }
 a {
   text-decoration: none;
-  color: #444;
+  color: #fff;
 }
 
 header nav {
@@ -334,8 +339,10 @@ header nav ul li {
   margin: 0 auto;
   padding: 0 10px;
 }
-header nav ul li a:hover {
-  color: #ff7a00;
+a.active,
+a:hover {
+  background: #1b9bff;
+  transition: 0.5s;
 }
 /* main images premiere images */
 
@@ -411,12 +418,7 @@ small {
 }
 
 /*  fin de possebilities
-
-
-
 DEBUT DE CONTACT
-
-
 */
 
 #contact h3 {
@@ -438,7 +440,7 @@ form {
 }
 footer {
   height: 260px;
-  background-color: #444;
+  background-color: #0064dc;
   position: absolute;
   /* margin-top: -18px; */
   margin-top: 1300px;
@@ -455,9 +457,7 @@ footer span #end {
   padding: 0;
 }
 /*
-
 media queries
-
 */
 
 .caravanes1 {
@@ -470,9 +470,6 @@ media queries
 
 /*
 FORMULAIRE DE LA PAGE CONTACT
-
-
-
 */
 
 form {

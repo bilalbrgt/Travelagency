@@ -1,0 +1,27 @@
+@media only screen and (max-width: 1200px) {
+  header {
+    height: 120px;
+    background-color: #0064dc;
+    width: 113vh;
+  }
+  header nav ul li a {
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-right: 26px;
+    margin-left: 66px;
+  }
+}
+
+@media all and (orientation: portrait) {
+  header {
+    height: 120px;
+    background-color: #0064dc;
+    width: 113vh;
+  }
+  header nav ul li a {
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-right: 26px;
+    margin-left: 66px;
+  }
+}

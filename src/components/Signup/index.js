@@ -48,9 +48,11 @@ const Signup = (props) => {
     email === "" ||
     password === "" ||
     password !== confirmPassword ? (
-      <button disabled>Inscription</button>
+      <button disabled className="newbutton">
+        Inscription
+      </button>
     ) : (
-      <button>Inscription</button>
+      <button className="newbutton">Inscription</button>
     );
 
   // gestion erreurs
@@ -126,7 +128,7 @@ const Signup = (props) => {
             </form>
             <div className="linkContainer">
               <Link className="simpleLink33" to="/login">
-                Déjà inscrit? <button id="login">Connectez-vous</button>
+                Déjà inscrit ? Connectez-vous
               </Link>
             </div>
           </div>
