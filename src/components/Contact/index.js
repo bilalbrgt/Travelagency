@@ -4,7 +4,7 @@ import axios from "axios";
 import "react-toastify/dist/ReactToastify.min.css";
 import { ToastContainer, toast } from "react-toastify";
 import "../Css/contact.css";
-import image from "../../img/bg-Travelagency.png";
+import image from "../../img/blues2travelagency.jpg";
 
 class mycontact extends Component {
   constructor() {
@@ -45,7 +45,7 @@ class mycontact extends Component {
         <section id="contact">
           <img className="montagnes" src={image} alt="montagnes"></img>
 
-          <h1 className="contactme"> Contactez- nous</h1>
+          <h1 className="contactme"> Contact</h1>
 
           <div class="g-mb-20"></div>
           <form onSubmit={this.handlesubmit} className="contactform">
@@ -106,6 +106,11 @@ class mycontact extends Component {
               Envoyer
             </button>
           </form>
+          <h3 id="firstemail">Email</h3>
+          <p className="Travelagency"> TravelAgencyfr@gmail.com</p>
+          
+            <i class="fas fa-phone-alt" className="callme"></i>
+          
         </section>
       </div>
     );

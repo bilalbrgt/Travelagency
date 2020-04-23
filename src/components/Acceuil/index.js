@@ -21,6 +21,7 @@ class Acceuil extends Component {
               Par ici
             </Link>
           </h2>
+
         </div>
         <Myicons />
         <Caravanes />
@@ -30,15 +31,14 @@ class Acceuil extends Component {
             {" "}
             Ce site utilise des cookies afin d'améliorer votre expérience et
             optimiser nos sites et services{" "}
-            
-              <span
-                id="X"
-                onClick={() => {
-                  this.setState({ show: false });
-                }}
-              >
-                x
-              </span>{" "}
+            <span
+              id="X"
+              onClick={() => {
+                this.setState({ show: false });
+              }}
+            >
+              x
+            </span>{" "}
           </p>
         ) : null}
       </section>

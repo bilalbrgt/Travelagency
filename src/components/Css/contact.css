@@ -1,17 +1,19 @@
+@import url("https://fonts.googleapis.com/css?family=Lato&display=swap");
+
 .montagnes {
   background-image: url(/static/media/bg-Travelagency.e45bfbd3.png);
   background-repeat: no-repeat;
   background-size: cover;
   position: absolute;
   width: 212vh;
-  height: 200vh;
+  height: 198vh;
   margin-left: -721px;
 }
 
 .robot {
   display: none;
 }
-.contact-form-btn{
+.contact-form-btn {
   float: right;
   border: 0;
   background: #34495e;
@@ -21,6 +23,48 @@
   cursor: pointer;
   transition: 0.5s;
 }
-.contact-form-btn:hover{
+.contact-form-btn:hover {
   background: #2980b9;
+}
+
+.contactme {
+  font-size: 32px;
+  margin-left: 275px;
+  color: white;
+  margin-top: 225px;
+  position: absolute;
+  font-family: "Lato", sans-serif;
+}
+
+.contactform {
+  margin: 0 auto;
+  width: 400px;
+  padding: 1em;
+  position: absolute;
+  margin-top: 400px;
+  margin-left: 100px;
+}
+
+#firstemail {
+  color: white;
+  margin-top: 246px;
+  position: absolute;
+  margin-left: 847px;
+  font-size: 30px;
+  text-transform: none;
+  font-family: "Lato", sans-serif;
+}
+
+.Travelagency {
+  color: white;
+  position: absolute;
+  margin-top: 336px;
+  font-size: 20px;
+  margin-left: 748px;
+}
+
+#callme {
+  color: black;
+  position: absolute;
+  font-size: 20px;
 }

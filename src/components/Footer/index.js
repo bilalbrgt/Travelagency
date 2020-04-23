@@ -17,7 +17,7 @@ class footer extends Component {
             Travel Agency<span class="oranges">.</span>
           </h1>
 
-          <p class="copy">Developed &amp; Designed by Bilal</p>
+          <p class="copy">Copyright © 2020</p>
 
           <p className="avis">
             Avis de voyageurs présents sur <i class="fab fa-tripadvisor "></i>{" "}
