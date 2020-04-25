@@ -68,3 +68,20 @@
   position: absolute;
   font-size: 20px;
 }
+
+#phone {
+  position: absolute;
+  margin-top: 242px;
+  color: white;
+  margin-left: 600px;
+  cursor: pointer;
+  font-size: 40px;
+}
+
+.jsp {
+  color: white;
+  position: absolute;
+  font-size: 20px;
+  margin-top: 238px;
+  margin-left: 1135px;
+}

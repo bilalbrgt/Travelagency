@@ -10,6 +10,7 @@ class mycontact extends Component {
   constructor() {
     super();
     this.sayHello = this.reloadThePage.bind(this);
+    this.toggleHandler = this.toggleHandler.bind(this);
 
     this.state = {
       name: "",
@@ -37,16 +38,34 @@ class mycontact extends Component {
   reloadThePage() {
     window.location.reload();
   }
-  notify = () => toast.success(" Email envoyer  ");
+  // state pour toggle
 
+  state = {
+    display: false,
+  };
+// debut de la fonctions toggle 
+  toggleHandler = () => {
+    const currentStatus = this.state.display;
+    this.setState({
+      display: !currentStatus,
+    });
+  };
   render() {
+    let content = null;
+    if (this.state.display) {
+      content = <h2 className="jsp">01.48.32.25.63</h2>;
+    }
+    // fin de la fonctions toogle 
     return (
       <div className="fullscren">
         <section id="contact">
           <img className="montagnes" src={image} alt="montagnes"></img>
 
           <h1 className="contactme"> Contact</h1>
-
+          <button onClick={this.toggleHandler} className="where">
+            <i class="fas fa-phone " id="phone"></i>{" "}
+          </button>
+          {content}
           <div class="g-mb-20"></div>
           <form onSubmit={this.handlesubmit} className="contactform">
             <div>
@@ -108,9 +127,8 @@ class mycontact extends Component {
           </form>
           <h3 id="firstemail">Email</h3>
           <p className="Travelagency"> TravelAgencyfr@gmail.com</p>
-          
-            <i class="fas fa-phone-alt" className="callme"></i>
-          
+
+          <i class="fas fa-phone-alt" className="callme"></i>
         </section>
       </div>
     );
