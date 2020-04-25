@@ -43,7 +43,7 @@ const ForgetPassword = (props) => {
               <span
                 style={{
                   border: "1px solid green",
-                  background: "green",
+                  background: "blue",
                   color: "#ffffff",
                 }}
               >

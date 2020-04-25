@@ -33,7 +33,7 @@ const Signup = (props) => {
       })
       .then(() => {
         setLoginData({ ...data });
-        props.history.push("/welcome");
+        props.history.push("/login");
       })
       .catch((error) => {
         setError(error);
@@ -56,7 +56,7 @@ const Signup = (props) => {
     );
 
   // gestion erreurs
-  //  const errorMsg = error !== "" && <span>{error.message}</span>;
+  const errorMsg = error !== "" && <span>{error.message}</span>;
 
   return (
     <div className="signUpLoginBox">
@@ -64,8 +64,6 @@ const Signup = (props) => {
         <div className="formBoxLeftSignup"></div>
         <div className="formBoxRight">
           <div className="formContent">
-            {/* {errorMsg} */}
-
             <h2 className="inscriptions">Inscription </h2>
             <form onSubmit={handleSubmit}>
               <div className="inputBox" id="movelogin">
@@ -130,6 +128,7 @@ const Signup = (props) => {
               <Link className="simpleLink33" to="/login">
                 Déjà inscrit ? Connectez-vous
               </Link>
+              {errorMsg}
             </div>
           </div>
         </div>

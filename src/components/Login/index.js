@@ -53,6 +53,7 @@ const Login = (props) => {
                   type="email"
                   autoComplete="off"
                   required
+                  email={email}
                 />
                 <label htmlFor="email" required="required" className="myemail3">
                   Email
