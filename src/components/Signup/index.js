@@ -12,6 +12,7 @@ const Signup = (props) => {
     password: "",
     confirmPassword: "",
   };
+  
 
   const [loginData, setLoginData] = useState(data);
   const [error, setError] = useState("");

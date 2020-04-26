@@ -2,6 +2,7 @@ import React, { useState, useEffect, useContext } from "react";
 import { Link } from "react-router-dom";
 import { FirebaseContext } from "../Firebase";
 import "../Css/login.css";
+import Compte from "../Compte";
 
 const Login = (props) => {
   const firebase = useContext(FirebaseContext);

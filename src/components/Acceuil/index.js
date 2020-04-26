@@ -21,7 +21,6 @@ class Acceuil extends Component {
               Par ici
             </Link>
           </h2>
-
         </div>
         <Myicons />
         <Caravanes />
@@ -29,8 +28,8 @@ class Acceuil extends Component {
         {this.state.show ? (
           <p className="cookies">
             {" "}
-            Ce site utilise des cookies afin d'améliorer votre expérience et
-            optimiser nos sites et services{" "}
+            Les cookies assurent le bon fonctionnement de nos services. En
+            utilisant ces derniers, vous acceptez l'utilisation des cookies.{" "}
             <span
               id="X"
               onClick={() => {

@@ -82,8 +82,11 @@ class Informations extends Component {
   render() {
     let datas = this.state.datas;
     return (
+
       <div className="App">
+
         <h2 id="title">{this.state.title}</h2>
+
         <form ref="myForm" className="myForm">
           <input
             type="text"
