@@ -147,7 +147,7 @@
   position: absolute;
 }
 #divv {
-  background-color: #efefef;
+  background-color: #424b62;
   width: 275px;
   height: 429px;
   margin-top: 825px;
@@ -157,4 +157,57 @@
 
 .maldives {
   color: black;
+}
+.choix {
+  position: absolute;
+  margin-top: 858px;
+  margin-left: 865px;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  font-weight: 700;
+}
+.choix2 {
+  color: #ff5f46;
+}
+
+.choix4 {
+  position: absolute;
+  margin-top: 940px;
+  margin-left: 865px;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  font-weight: 700;
+}
+.choix3 {
+  color: #ff5f46;
+}
+
+.choix5 {
+  position: absolute;
+  margin-top: 1028px;
+  margin-left: 865px;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  font-weight: 700;
+}
+
+.choix6 {
+  color: #ff5f46;
+}
+
+.choix7 {
+  position: absolute;
+  margin-top: 1128px;
+  margin-left: 865px;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  font-weight: 700;
+}
+
+.choix8 {
+  color: #ff5f46;
 }

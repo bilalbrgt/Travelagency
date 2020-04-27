@@ -46,30 +46,44 @@ const Travel = () => {
           );
         })}
         <p className="sejour"> Tous nos séjours à petits prix</p>
-          <h2 className="destinations">Destination à découvrir !</h2>
-          <section></section>
-          <img className="egypte" src={image} alt="Egypte"></img>
-          <p className="block"></p>
-          <p className="block2"> Egypte</p>
+        <h2 className="destinations">Destination à découvrir !</h2>
+        <section></section>
+        <img className="egypte" src={image} alt="Egypte"></img>
+        <p className="block"></p>
+        <p className="block2"> Egypte</p>
 
+        <br />
+        <p id="prix-egypte"> dés 600€</p>
+        <p id="degypte">
+          Préparez votre voyage en Egypte: <br />
+          suivez nos conseils et nos infos
           <br />
-          <p id="prix-egypte"> dés 600€</p>
-          <p id="degypte">
-            Préparez votre voyage en Egypte: <br />
-            suivez nos conseils et nos infos
-            <br />
-            pratiques, découvrez <br />
-            les meilleurs itinéraires et les visites
-            <br />
-            incontournables.
-          </p>
+          pratiques, découvrez <br />
+          les meilleurs itinéraires et les visites
+          <br />
+          incontournables.
+        </p>
 
-          <h3 className="topdestinations">Top destinations</h3>
-          <div id="divv"></div>
-        </div>
-        
+        <h3 className="topdestinations">Top destinations</h3>
+        <div id="divv"></div>
+        <p className="choix4">
+          {" "}
+          Casablanca <span className="choix3"> dés 150€</span>
+        </p>
+        <p className="choix">
+          {" "}
+          Texas <span className="choix2"> dés 750€</span>
+        </p>
+        <p className="choix5">
+          {" "}
+          Martinique <span className="choix6"> dés 1200€</span>
+        </p>
+        <p className="choix7">
+          {" "}
+          Maldives <span className="choix8"> dés 950€</span>
+        </p>
       </div>
-      
+    </div>
   );
 };
 
